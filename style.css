@@ -1,0 +1,302 @@
+body{   
+    display: flex;
+    margin: 0;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-image: url(/images/paul-menz-n_hMeVaOfYs-unsplash.jpg)     
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.body-one{
+    color: white;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    
+}
+.header{ 
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin-left: 223px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    font-size: 32px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.sides{
+    display: flex;
+    margin-left: 937px;
+    margin-bottom: 5px;
+    gap: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.heading{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding-left: 220px;
+    padding-top: 90px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #faf8f9; 
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding-left: 220px;
+    padding-top: 20px;
+    color: #f1f1f1;
+    font-size: 17px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 33px;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-right: 300px;
+    border-radius: 8px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    justify-content: flex-start;
+    }
+ 
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+
+}
+.main1{
+    display: flex;
+    gap: 580px;
+    align-items: flex-end;
+}
+.image{
+    display: flex;
+    background-color: #d8d8d8;
+    width: 480px;
+    height:600px;
+    margin-top: 50px;
+    background-image: url(/images/nikolay-loubet---AS0fm7E88-unsplash.jpg);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main2{
+    display: fle;
+    flex-direction: column;
+    width: 1833px;
+    background-color: #182833;
+    padding: 110px 10px 90px 10px;
+    margin-top: 150px;
+    
+    
+}
+.heading2{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+ .image1{
+     background-color: #d8d8d8;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    background-image: url(/images/road-ahead-TA3qZnmBGo8-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.image2{
+    background-color: #d8d8d8;
+   width: 280px;
+   height: 280px;
+   border-radius: 10px;
+   display: flex;
+   background-image: url(/images/stocker-ll-zWyqiSZOa9A-unsplash.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+.image3{
+    background-color: #d8d8d8;
+   width: 280px;
+   height: 280px;
+   border-radius: 10px;
+   display: flex;
+   background-image: url(/images/yender-fonseca--_D6AgYTARE-unsplash.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+}
+.image4{
+    background-color: #d8d8d8;
+   width: 280px;
+   height: 280px;
+   border-radius: 10px;
+   display: flex;
+   background-image: url(/images/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   margin-left: 00px;
+   
+}
+
+.overall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-left: px;
+    
+}
+.subtext1{
+    display: flex;
+}
+.subtext2{
+    display: flex;
+    padding-left: 15px;
+}
+.subtext3{
+    display: flex;
+    padding-right: 15px;
+}
+.subtext4{
+    display: flex;
+    padding-right: 10px;
+}
+.extra {
+    margin-right: 33px;
+}
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    gap: 170px;
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-top: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    font-weight: bold;
+}
+
+.great{  
+    text-decoration: underline;
+    padding-left: 600px; 
+    font-size: 30px;     
+}
+
+.action{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+}
+.call{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-left: 670px;
+   
+}
+
+.click{
+    display: flex;
+    color: rgb(209, 208, 208);
+    padding-left: 670px;
+}
+.sign-up{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 33px;
+    margin-left: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 8px;
+    border: 3px white;
+    border-style: solid;
+   
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    justify-content: flex-start;
+
+}
+.container2{
+    display: flex;
+    margin-top: 200px;
+    background-color: #182833;;
+    
+    
+}
+.copy{
+    display: inline;
+    margin-top: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+    align-items: center;
+}
