@@ -135,10 +135,11 @@ body{
     height: 280px;
     border-radius: 10px;
     display: flex;
-    background-image: url(/images/road-ahead-TA3qZnmBGo8-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+   object-fit: cove;
     background-size: cover;  
+}
+.k{
+    border-radius: 10px;
 }
 .image2{
     background-color: #d8d8d8;
